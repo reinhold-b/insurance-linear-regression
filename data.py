@@ -20,7 +20,7 @@ for i in range(len(x)):
         weights[1] += LEARNING_RATE
 
 plt.scatter(x, y)
-plt.plot([x for x in range(100)], [x * weights[0] + weights[1] for x in range(100)])
+plt.plot([x for x in range(90)], [x * weights[0] + weights[1] for x in range(90)])
 plt.ylabel("Insurance charges")
 plt.xlabel("Age")
 plt.title(str(weights))
